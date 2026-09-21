@@ -19,8 +19,8 @@ This project utilizes a separated frontend and backend architecture:
 *   **Deployment:** Render (Backend), Vercel (Frontend)
 
 ## Live Demo
-*   **Frontend:** [Insert your Vercel URL here]
-*   **Backend API:** [Insert your Render URL here]/api/products/
+*   **Frontend:** https://codealphaecommerce-sigma.vercel.app/
+*   **Backend API:** https://codealpha-ecommerce-cb6s.onrender.com/api/products/
 
 ## Local Setup
 
