@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeAlpha E-Commerce</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f4f4f4; }
+        nav { display: flex; justify-content: space-between; background: #333; color: white; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+        .product-card { background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; }
+        .product-card h3 { margin: 10px 0; }
+        .price { color: #27ae60; font-weight: bold; font-size: 1.2em; }
+        button { background: #3498db; color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; margin-top: 10px; }
+        button:hover { background: #2980b9; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h2>CodeAlpha Store</h2>
+        <h3 id="cart-status">Cart: 0 items</h3>
+        <button onclick="processCheckout()" style="margin-top: 0; background: #27ae60;">Checkout</button>
+    </nav>
+
+    <div class="product-grid" id="product-container">
+        <!-- JavaScript will inject products here -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
