@@ -26,7 +26,7 @@ This project utilizes a separated frontend and backend architecture:
 
 **1. Clone the repository**
 \`\`\`bash
-git clone https://github.com/your-username/CodeAlpha_Ecommerce.git
+git clone https://github.com/obasi-1/CodeAlpha_Ecommerce.git
 cd CodeAlpha_Ecommerce
 \`\`\`
 
